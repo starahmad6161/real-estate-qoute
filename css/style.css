@@ -1,9 +1,21 @@
 
+
+body
+{
+    min-height: 1700px;
+}
+
+
 .pointer
 {
     cursor: pointer;
 }
 
+.quote-quote-section .contact-info
+{
+    background-color: #69C848;
+    height: 100%;
+}
 .quote-quote-section .title
 {
     color: #3893C2;
@@ -38,6 +50,10 @@
     z-index: 2;
 }
 
+.quote-quote-section .box-item
+{
+    
+}
 .quote-quote-section .box-item img
 {
     opacity: .5;
