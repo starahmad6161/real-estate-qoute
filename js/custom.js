@@ -8,6 +8,7 @@ $(function () {
 
     $(".quote-section .first-row .box-item").on('click', function() {
         $(".quote-section .second-row .box-item").removeClass('active');
+        $('.quote-section .inner-content .inner-box').hide();
         $(this).addClass('active').siblings().removeClass('active');
         dataFRow = $(this).data('f-row');
         $('.quote-section .second-row').addClass('active');
