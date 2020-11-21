@@ -19,7 +19,7 @@ $(function () {
         $(this).addClass('active').siblings().removeClass('active');
         dataSRow = $(this).data('s-row');
 
-        $(this).parents('.rows-container').find(`.${dataFRow}${dataSRow}`).fadeIn(200).siblings().fadeOut(200);
+        $(this).parents('.rows-container').find(`.${dataFRow}${dataSRow}`).show().siblings().hide();
         
     });
 });
