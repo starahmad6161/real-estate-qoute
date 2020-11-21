@@ -40,18 +40,41 @@ body
 
 
 
+.gray-btn
+{
+    background-color: #606060;
+}
+.gray-btn:hover
+{
+    background-color: #EF474D;
+}
+.red-btn
+{
+    background-color: #EF474D;
+}
+.red-text
+{
+    color: #EF474D;
+}
+
+
+
 
 
 .pointer
 {
     cursor: pointer;
 }
-
-.quote-quote-section .contact-info
+.quote-quote-section .btn
 {
-    background-color: #69C848;
-    height: 100%;
+    transition: .2s;
+    font-size: 1.3rem;
 }
+.quote-quote-section .hint
+{
+    font-size: .8rem;
+}
+
 .quote-quote-section .title
 {
     color: #3893C2;
@@ -67,9 +90,8 @@ body
 .quote-quote-section .rows-container::before
 {
     content: "";
-    width: .1rem;
     height: 100%;
-    background-color: #ddd;
+    border: .01rem dotted #ddd;
     position: absolute;
     top: 0;
     left: 15px;
@@ -95,7 +117,14 @@ body
     opacity: .5;
     transition: .2s;
     border: 1px solid transparent;
-    font-size: 7rem;
+    font-size: 5rem;
+}
+@media (max-width: 991px) {
+    .quote-quote-section .box-item .icon
+    {
+        font-size: 3rem;
+    }
+    
 }
 .quote-quote-section .box-item .box-title
 {
@@ -134,4 +163,26 @@ body
 .quote-quote-section .second-row.active .overlay
 {
     display: none;
+}
+.quote-quote-section .bottom-text
+{
+    font-size: .8rem;
+}
+
+.quote-quote-section .right-section
+{
+    background-color: #969696;
+}
+.bg-gray
+{
+    background-color: gray;
+}
+.quote-quote-section .right-section hr
+{
+    width: 50px;
+    height: .1rem;
+}
+.quote-quote-section .right-section .icon
+{
+    font-size: 3rem;
 }
