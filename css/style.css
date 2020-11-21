@@ -5,6 +5,42 @@ body
     min-height: 1700px;
 }
 
+._1st-bg
+{
+    background-color: #32CDC7;
+}
+._2nd-bg
+{
+    background-color: #FE80C0;
+}
+._3rd-bg
+{
+    background-color: #77BCFF;
+}
+._4th-bg
+{
+    background-color: #F1C40F;
+}
+._5th-bg
+{
+    background-color: #8D708E;
+}
+._6th-bg
+{
+    background-color: #E84C3D;
+}
+._7th-bg
+{
+    background-color: #16A086;
+}
+._8th-bg
+{
+    background-color: #9B58B5;
+}
+
+
+
+
 
 .pointer
 {
@@ -54,11 +90,12 @@ body
 {
     
 }
-.quote-quote-section .box-item img
+.quote-quote-section .box-item .icon
 {
     opacity: .5;
     transition: .2s;
     border: 1px solid transparent;
+    font-size: 7rem;
 }
 .quote-quote-section .box-item .box-title
 {
@@ -70,8 +107,8 @@ body
     color: #222;
 }
 
-.quote-quote-section .box-item.active img,
-.quote-quote-section .box-item img:hover
+.quote-quote-section .box-item.active .icon,
+.quote-quote-section .box-item .icon:hover
 {
     border: 1px solid #222;
     opacity: 1;

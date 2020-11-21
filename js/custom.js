@@ -6,7 +6,7 @@ $(function () {
     let dataSRow;
 
 
-    $(".quote-quote-section .first-row .box-item img").on('click', function() {
+    $(".quote-quote-section .first-row .box-item .icon").on('click', function() {
         $(".quote-quote-section .second-row .box-item").removeClass('active');
 
         $('.quote-quote-section .inner-content .inner-box').hide();
@@ -23,7 +23,7 @@ $(function () {
     });
 
     
-    $(".quote-quote-section .second-row .box-item img").on('click', function() {
+    $(".quote-quote-section .second-row .box-item .icon").on('click', function() {
         $(this).parents('.box-item').addClass('active').siblings().removeClass('active');
         dataSRow = $(this).data('s-row');
 
